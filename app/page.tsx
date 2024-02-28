@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="my-6 text-4xl">Explore recipes around the world</h1>
         <Link
           href="/types"
-          className="shadow-gray-50 bg-blue-500 rounded text-xl py-2 cursor-pointer px-4 hover:bg-blue-600 text-white uppercase"
+          className="shadow-gray-50 bg-blue-500 rounded text-xl py-2 font-medium cursor-pointer px-4 hover:bg-blue-600 text-white uppercase"
         >
           List of different Cuisines
         </Link>

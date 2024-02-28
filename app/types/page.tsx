@@ -15,6 +15,7 @@ const fetchRecipeAreas = async () => {
     console.error(error);
   }
 };
+
 const page = async () => {
   const areas = await fetchRecipeAreas();
   if (!areas) {
@@ -34,4 +35,5 @@ const page = async () => {
     </div>
   );
 };
+
 export default page;

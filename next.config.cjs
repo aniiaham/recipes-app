@@ -12,6 +12,7 @@ const nextConfig = {
     ],
   },
 };
+
 module.exports = nextConfig;
 
 // https://www.themealdb.com/images/media/meals/bopa2i1683209167.jpg

@@ -17,7 +17,7 @@ const RecipeList = ({ recipes, type }: { recipes: Meal[]; type: string }) => {
             className="rounded bg-slate-200 w-full flex flex-col justify-center items-center"
           >
             <Image
-              unoptimized
+              unoptimized // https://stackoverflow.com/questions/64909447/got-an-error-invalid-src-prop-here-is-a-link-on-next-image-hostname-loca
               alt="Recipes url"
               width={500}
               height={500}
