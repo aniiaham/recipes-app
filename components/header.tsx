@@ -10,11 +10,11 @@ export default function Header() {
   const recipeId = pathname[3];
 
   return (
-    <div className="py-5 bg-slate-300 flex items-center justify-between px-2">
+    <div className="py-5 bg-slate-200 flex items-center justify-between px-5">
       <div>
         <Link href="/">
-          <h1 className="text-blue-700 font-bold text-5xl text-center">
-            FindRecipes
+          <h1 className="text-blue-700 font-semibold text-4xl text-center">
+            Recipes Finder
           </h1>
         </Link>
       </div>
